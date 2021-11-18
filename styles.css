@@ -41,14 +41,15 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: red;
-  color: white;
   text-align: center;
+  padding-top: 5px;
 }
 
-a::before {
+a:link {
     color: white;
 }
 
-a::after {
+
+a:visited {
     color: white;
 }
