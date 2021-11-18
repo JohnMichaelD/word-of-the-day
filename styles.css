@@ -1,0 +1,54 @@
+* {
+    font-family: 'Special Elite', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerCenterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wordIs {
+    padding-top: 100px;
+}
+
+.word {
+    font-size: 35px;
+}
+.infoContainer {
+    display: flex;
+}
+
+.partOfSpeech {
+    padding-right: 50px;
+}
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+a::before {
+    color: white;
+}
+
+a::after {
+    color: white;
+}
