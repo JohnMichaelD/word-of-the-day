@@ -7,6 +7,9 @@ header {
     justify-content: flex-end;
 }
 
+.dateContainer {
+    padding-right: 20px;
+}
 .centerContainer {
     display: flex;
     justify-content: center;

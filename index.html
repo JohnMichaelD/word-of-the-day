@@ -16,7 +16,8 @@
         
         <header>
             <div class="dateContainer">
-                <p class="date">Insert Date Here</p>
+                <p>Date: <span id="date"></span></p>
+            
             </div>
         </header>
 
@@ -52,3 +53,8 @@
         <a href="https://www.merriam-webster.com/word-of-the-day">Source: MerrianWebster.com/word-of-the-day</a>
     </footer>
 </html>
+
+<script>
+    var dt = new Date();
+    document.getElementById("date").innerHTML = dt.toLocaleDateString();
+</script>
