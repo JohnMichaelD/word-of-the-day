@@ -60,3 +60,41 @@ a:link {
 a:visited {
     color: white;
 }
+
+/* testDesign Css */
+
+/*.testHeader {
+ background-color: yellow;
+}*/
+
+/*.testDesign {
+    width: 200px;
+    background-color:#0df705;
+    height: 100px;
+    z-index: 9;
+}*/
+
+.container{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 20px;
+}
+.box{
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;  /* for demo purpose  */
+}
+.stack-top{
+    z-index: -9;
+    margin: 20px; /* for demo purpose  */
+    height: 45vh;
+    width: 200%;
+}
+
+.redBox {
+    opacity: 0.4;
+    width: 61.5vw;
+}
