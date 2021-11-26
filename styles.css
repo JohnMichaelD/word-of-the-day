@@ -1,5 +1,6 @@
 * {
     font-family: 'Special Elite', cursive;
+    background-color: rgb(13, 231, 247);
 }
 
 header {
@@ -65,14 +66,20 @@ a:visited {
 
 /*.testHeader {
  background-color: yellow;
-}*/
+ }
 
-/*.testDesign {
+ .testDesign {
     width: 200px;
     background-color:#0df705;
     height: 100px;
     z-index: 9;
 }*/
+
+.testDesign {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
 
 .container{
     width: 100px;
@@ -97,4 +104,13 @@ a:visited {
 .redBox {
     opacity: 0.4;
     width: 61.5vw;
+}
+
+.orangeSquare {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    z-index: 9;
+    opacity: 0.8;
+    border-radius: 100%;
 }
